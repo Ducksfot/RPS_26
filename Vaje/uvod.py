@@ -11,7 +11,7 @@ def poštevanka():
 
     while st <= 10:
         print(f"{st} * {x} = {st * x}")
-        st += 1
+        st += 1 
 
 if __name__ == "__main__":
     # Hello()
