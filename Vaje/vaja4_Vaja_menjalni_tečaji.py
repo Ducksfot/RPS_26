@@ -41,28 +41,30 @@ def v_evre(znesek, valuta, tecaji):
 
 def main():
 
+    pass # odkomentiram pri testiranju seveda
+
     #v_tujo
-    vnos1 = float(input("Vnesi število €: "))
-    vnos2 = str(input("Vnesi valuto: "))
-    vnos3 = podatki["rates"]
-    v_tujo(vnos1, vnos2, vnos3)
+    # vnos1 = float(input("Vnesi število : "))
+    # vnos2 = str(input("Vnesi valuto: "))
+    # vnos3 = podatki["rates"]
+    # v_tujo(vnos1, vnos2, vnos3)
 
     #v_evro
-    vnos1 = float(input("Vnesi število: "))
-    vnos2 = str(input("Vnesi valuto: "))
-    vnos3 = podatki["rates"]
-    v_evre(vnos1, vnos2, vnos3)
+    # vnos1 = float(input("Vnesi število: "))
+    # vnos2 = str(input("Vnesi valuto: "))
+    # vnos3 = podatki["rates"]
+    # v_evre(vnos1, vnos2, vnos3)
+    #tuje = v_tujo(vnos1, vnos2, vnos3)
 
-    tuje = v_tujo(vnos1, vnos2, vnos3)
+    #if tuje is None:
+    #    print("Valuta", vnos2, "ne obstaja.")
+    #else:
+    #    print(vnos1, "EUR =", round(tuje, 2), vnos2)    
+    #    nazaj = v_evre(tuje, vnos2, tecaji)
+    #    print(round(tuje, 2), vnos2, "=", round(nazaj, 2), "EUR")
 
-    if tuje is None:
-        print("Valuta", vnos2, "ne obstaja.")
-    else:
-        print(vnos1, "EUR =", round(tuje, 2), vnos2)    
-        nazaj = v_evre(tuje, vnos2, tecaji)
-        print(round(tuje, 2), vnos2, "=", round(nazaj, 2), "EUR")
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
 
 
