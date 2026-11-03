@@ -49,8 +49,22 @@ def naloga4(x, y):
 
 def naloga5(x):
 
-    # for i in range()
-    pass
+    skupaj = 0
+    prvi_dan = 0
+
+    for dan in range(1, x + 1):
+        if dan % 7 != 0:
+            skupaj += dan
+
+        if skupaj > 1000 and prvi_dan == 0:
+            prvi_dan = dan
+
+    print("Prihranjeno:", skupaj, "EUR")
+
+    if prvi_dan != 0:
+        print("Več kot 1000 EUR prvič na dan:", prvi_dan)
+    else:
+        print("Več kot 1000 EUR še nisi prihranil.")
 
 def main():
     # naloga 1
