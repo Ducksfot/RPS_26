@@ -67,6 +67,7 @@ def naloga5(x):
         print("Več kot 1000 EUR še nisi prihranil.")
 
 def main():
+    pass
     # naloga 1
     # doma = int(input("Vnesi št. golov domačih"))
     # gostje = int(input("Vnesi št. golov domačih"))
@@ -87,8 +88,8 @@ def main():
     # naloga4(starost, dan)
 
     # naloga 5
-    st_dni = int(input("Vnesi št. dni: "))
-    naloga5(st_dni)
+    # st_dni = int(input("Vnesi št. dni: "))
+    # naloga5(st_dni)
 
 if __name__ == "__main__":
     main()
