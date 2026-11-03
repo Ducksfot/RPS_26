@@ -49,7 +49,8 @@ def naloga4(x, y):
 
 def naloga5(x):
 
-    for i in range()
+    # for i in range()
+    pass
 
 def main():
     # naloga 1
