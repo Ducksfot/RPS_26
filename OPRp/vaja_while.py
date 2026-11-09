@@ -78,6 +78,12 @@ def main():
     # vnos = input("Vnesi stavek: ")
     # naloga2(vnos)
 
+    # naloga 4
+    if (prast(29)) == True:
+        print("Je!")
+    else:
+        print("Ni!")
+
     pass
 
 if __name__ == "__main__":
