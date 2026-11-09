@@ -1,3 +1,7 @@
+# lib
+
+import random
+
 def naloga1(x, y):
 
     skupaj = x + y
@@ -66,8 +70,12 @@ def naloga5(x):
     else:
         print("Več kot 1000 EUR še nisi prihranil.")
 
+def naloga6(n_st):
+    pass
+
 def main():
     pass
+
     # naloga 1
     # doma = int(input("Vnesi št. golov domačih"))
     # gostje = int(input("Vnesi št. golov domačih"))
@@ -90,6 +98,10 @@ def main():
     # naloga 5
     # st_dni = int(input("Vnesi št. dni: "))
     # naloga5(st_dni)
+
+    # naloga 6
+    # nakl_st = random.randint(0, 100)
+    # naloga6(nakl_st)
 
 if __name__ == "__main__":
     main()
